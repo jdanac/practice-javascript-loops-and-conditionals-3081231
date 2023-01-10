@@ -26,6 +26,19 @@
  *   - Report the updated balance to the customer.
  */
 
+ let balance = parseFloat(prompt("Enter your current Balance"));
+ let deposit = parseFloat(prompt('Enter amount to deposit'));
+
+ if(deposit >= 10000){
+totalBalance = balance + deposit;
+alert("Funds may be on hold for three days. Your Total Balance is " + totalBalance);
+
+ }
+ else {
+   totalBalance = balance + deposit;
+   alert("Your Total Balance is " + totalBalance);
+ }
+
         </script>
     </body>
 </html>
